@@ -1,0 +1,80 @@
+nav {
+
+    background-color: #abc2ab;
+    height: 20px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 30px
+}
+
+nav:hover {
+    background-color: #0ff8c2;
+    transform: rotateX(20deg);
+    transition: all 1s;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.box img {
+    height: auto;
+    width: 100%;
+
+
+}
+
+.notila {
+
+    border: 3px solid rgb(20, 108, 166);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 100px
+}
+
+.notila:hover {
+    background-color: #abc2ab;
+    transition: all 4s;
+        transform: rotate(360deg);
+        transition: all 5s;
+}
+
+
+
+a {
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+font-size: 20px;
+transition: all 1s ease;
+}
+a:hover{
+    color: black;
+    font-size: 30px;
+}
+
+button {
+    background-color: aquamarine;
+    border-radius: 50px;
+    border: 1px solid;
+        padding: 10px;
+        transition: all 1s;
+}
+
+button:hover {
+    background-color: crimson;
+    transition: all 1s;
+}
+
+.lap {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+@media (max-width : 700px) {}
